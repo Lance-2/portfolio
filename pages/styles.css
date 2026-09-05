@@ -68,8 +68,56 @@ nav .top-links span {
   color: var(--text);
 }
 
-img {
-  max-width: 100%;
-  height: 150px;
+.profile-pic {
+  width: 550px;
+  height: 550px;
+  object-fit: cover;
   border-radius: 50%;
+  margin: 120px 120px;
+  flex-shrink: 0;
+}
+
+.intro-text {
+  flex: 1;
+  margin-left: 10px; /* space between image and text */
+}
+.small-text {
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+  color: var(--text-dim);
+}
+.large-text {
+  font-size: 40px;
+  margin: 0;
+}
+.medium-text {
+  font-size: 18px;
+  margin: 10px 0 0 0;
+  text-align: center;
+}
+.info {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--line);
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  width: 100%;
+  padding: 24px;
+}
+.project-item {
+  background: var(--bg-panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  width: 100%;
+  padding: 24px;
 }
