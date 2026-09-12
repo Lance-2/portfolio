@@ -22,6 +22,11 @@ body {
   line-height: 1.5;
 }
 
+h2, .contact-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -102,20 +107,17 @@ nav .top-links span {
   border-bottom: 1px solid var(--line);
 }
 
-.projects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.projects, .skills {
   border-bottom: 1px solid var(--line);
 }
-.project-list {
+.project-list, .skill-list {
   display: grid;
   grid-template-columns: 1fr; 
   gap: 30px;
   width: 100%;
   padding: 36px;
 }
-.project-item {
+.project-item, .skill-item {
   background: var(--bg-panel);
   border: 1px solid var(--line);
   border-radius: 8px;
