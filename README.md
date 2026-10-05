@@ -1,2 +1,2 @@
-# portfolio
-Perosnal Portfolio to be used alongside my CVs and Resumes
+# Portfolio
+Personal Page to highlight personal projects and skills
